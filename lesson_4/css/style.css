@@ -1,0 +1,119 @@
+@import url(reset.css);
+
+
+.header {}
+
+.header__container {}
+
+.header__content {}
+
+.content-header {}
+
+.content-header__title {
+   color: green;
+}
+
+.content-header__sub-title {}
+
+.content-header__list {}
+
+.content-header__link {
+   color: red;
+}
+
+.content-header__link span {
+   color: blue;
+}
+
+.content-header__link mark {
+   color: rgb(106, 220, 57);
+}
+
+.content-header__image {}
+
+.content-header__text {}
+
+/*-------------------first-block--------------------------------*/
+.main__first-block {}
+
+.first-block__title {
+   color: yellow;
+}
+
+.first-block__text {
+   color: grey;
+}
+
+.first-block__text a {
+   color: blue;
+}
+
+/*-------------------second-block--------------------------------*/
+.main__second-block {
+   color: yellow;
+}
+
+.secon-block__title {
+   color: red;
+}
+
+.secon-block__text {}
+
+.secon-block__list {}
+
+.secon-block__list li {
+   color: blueviolet;
+}
+
+/*-------------------third-block--------------------------------*/
+.main__third-block {
+   color: rgb(120, 96, 143);
+}
+
+.third-block__title {
+   color: red;
+}
+
+.third-block__title span {
+   color: black;
+}
+
+.third-block__image {}
+
+.third-block__text p {
+   color: yellow;
+}
+
+.third-block__list {}
+
+/*-------------------fourth-block--------------------------------*/
+.main__fourth-block {
+   color: blue;
+}
+
+.fourth-block__title {}
+
+.fourth-block__text p mark {
+   color: blanchedalmond;
+   background: red;
+}
+
+/*-------------------fifth-block--------------------------------*/
+#five {
+   color: wheat;
+}
+
+.main__fifth-block {
+   color: red;
+}
+
+
+.fifth-block__title {}
+
+.fifth-block__image {}
+
+.fifth-block__sub-title {}
+
+.fifth-block__list {}
+
+.fifth-block__text {}
