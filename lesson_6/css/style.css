@@ -1,0 +1,228 @@
+@import url(reset.css);
+
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+
+body {
+   font-family: "Inter";
+   font-size: 18px;
+   height: 100%;
+}
+
+[class*="__container"] {
+   max-width: 1200px;
+   margin: 0 auto;
+   overflow: clip;
+   padding: 0 15px;
+}
+
+[class*="__body"] {
+   max-width: 722px;
+   margin: 0 auto;
+}
+
+/*--------------------------------------page------------------------------------------*/
+.page {
+   padding-top: 50px;
+}
+
+/*--------------------------------------consulting------------------------------------------*/
+.consulting__main-title {
+   text-align: center;
+   font-size: 50px;
+   margin-bottom: 30px;
+   background-color: #6B77E5;
+   padding: 10px 0;
+}
+
+.consulting {}
+
+.consulting__container {
+   margin-bottom: 40px;
+}
+
+.consulting__body {}
+
+.consulting__image {
+   margin-bottom: 24px;
+}
+
+.consulting__image img {
+   max-width: 100%;
+}
+
+.consulting__title {
+   color: #37393F;
+   font-family: Poppins;
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 1.27;
+}
+
+.consulting__text-top {
+   color: #7D7D7D;
+   font-weight: 400;
+   line-height: 1.46;
+   margin-bottom: 42px;
+}
+
+.consulting__sub-title {
+   color: #6B77E5;
+   font-family: Poppins;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.27;
+}
+
+.consulting__text-bottom {
+   color: #7D7D7D;
+   line-height: 1.46;
+}
+
+/*--------------------------------------benefits------------------------------------------*/
+
+.benefits {}
+
+.benefits__container {
+   margin-bottom: 50px;
+}
+
+.benefits__body {}
+
+.benefits__block {
+   margin-bottom: 48px;
+}
+
+.benefits__image {
+   display: inline-block;
+   vertical-align: top;
+   margin-right: 20px;
+}
+
+.benefits__image img {
+   min-width: 100%;
+}
+
+.benefits__content {
+   display: inline-block;
+   max-width: 332px;
+}
+
+.benefits__title {
+   color: #37393F;
+   font-family: Poppins;
+   font-size: 25px;
+   font-weight: 600;
+   line-height: 1.27;
+}
+
+.benefits__title:not(:last-child) {
+   margin-bottom: 15px;
+}
+
+.benefits__text {
+   color: #40DDB6;
+   font-family: Poppins;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.27;
+   margin-bottom: 24px;
+}
+
+.benefits__list {
+   color: #7D7D7D;
+   padding-left: 35px;
+}
+
+.benefits__list li:not(:last-child) {
+   margin-bottom: 35px;
+}
+
+/*--------------------------------------benefits-Questions-----------------------------------------*/
+
+.benefits__Questions {}
+
+.Questions {}
+
+.Questions__title {
+   color: #37393F;
+   font-family: Poppins;
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 1.27;
+}
+
+.Questions__text {
+   color: #7D7D7D;
+   line-height: 1.46;
+}
+
+/*--------------------------------------jewellery------------------------------------------*/
+
+.jewellery {}
+
+.jewellery__container {
+   padding-bottom: 50px;
+}
+
+.jewellery__main-title {
+   text-align: center;
+   font-size: 50px;
+   margin-bottom: 30px;
+   background-color: #6B77E5;
+   padding: 20px 0;
+}
+
+.jewellery__content {
+   padding-top: 21px;
+   display: inline-block;
+   max-width: 563px;
+   vertical-align: top;
+   margin-right: 38px;
+}
+
+.jewellery__sub-title {
+   color: #D06B00;
+   font-size: 28px;
+}
+
+.jewellery__sub-title:not(:last-child) {
+   margin-bottom: 12px;
+}
+
+.jewellery__title {
+   color: #0E333D;
+   font-family: DM Serif Text;
+   font-size: 59px;
+   line-height: 1.46;
+}
+
+.jewellery__title:not(:last-child) {
+   margin-bottom: 25px;
+}
+
+.jewellery__text {
+   color: #474747;
+   font-size: 20px;
+   line-height: 1.80;
+}
+
+.jewellery__image {
+   max-width: 568px;
+   display: inline-block;
+}
+
+.image__left {
+   margin-right: 10px;
+}
+
+.image__left img {
+   min-width: 100%;
+}
+
+.image__right {}
+
+.image__right img {
+   min-width: 100%;
+}
