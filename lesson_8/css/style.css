@@ -1,0 +1,594 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+
+
+
+.page {}
+
+.page__welcome {}
+
+.page__euphoria {}
+
+/*---------------------------header--------------------------------------------*/
+.header {
+   background: url("../img/praktik/fon_3.jpg") center / cover no-repeat;
+   background-attachment: fixed;
+}
+
+.header__container {
+   max-width: 1250px;
+   padding: 50px 15px;
+   margin: 0 auto;
+   overflow: clip;
+   text-align: center;
+   color: rgb(241, 244, 246);
+   font-weight: 500;
+}
+
+.header__title {
+   font-size: 45px;
+   letter-spacing: 3px;
+}
+
+.header__title:not(:last-child) {
+   margin-bottom: 30px;
+}
+
+.header__list {
+   font-size: 30px;
+   text-transform: uppercase;
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+.header__list li {
+   line-height: 1.7;
+   border-radius: 10px;
+}
+
+.header__list li:not(:last-child) {
+   margin-bottom: 15px;
+}
+
+.header__list li::before {
+   content: "";
+   width: 10px;
+   height: 10px;
+   display: inline-block;
+   background-color: #FFF;
+   border-radius: 50%;
+   vertical-align: middle;
+   margin-right: 15px;
+}
+
+.header__list li::after {
+   content: "";
+   width: 10px;
+   height: 10px;
+   display: inline-block;
+   background-color: #FFF;
+   border-radius: 50%;
+   vertical-align: middle;
+   margin-left: 15px;
+}
+
+.header__list li:hover {
+   transform: scale(1.02);
+   opacity: 0.85;
+   transition: all 0.3s ease 0s;
+   box-shadow: inset 3px 3px 3px 1px, 3px 3px 3px 1px;
+   background: rgb(255, 255, 255);
+   background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(255, 255, 255, 1) 100%);
+}
+
+.header__list li:active {
+   box-shadow: inset 0px 0px 0px 0px, 0px 0px 0px 0px;
+}
+
+.header__list li:nth-child(4):hover {
+   background: rgb(255, 255, 255);
+   background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 17%, rgba(0, 0, 0, 1) 83%, rgba(255, 255, 255, 1) 100%);
+}
+
+.header__link {}
+
+/*---------------------------welcome--------------------------------------------*/
+
+.page__welcome {}
+
+.welcome__container {
+   max-width: 703px;
+   margin: 0 auto;
+   padding: 0px 15px;
+   overflow: clip;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   font-family: "Poppins";
+   font-weight: 400;
+   color: #37393F;
+}
+
+.welcome__sub__title {
+   font-family: "Inter";
+   font-size: 18px;
+   font-weight: 500;
+   margin-bottom: 16px;
+   background: url("../img/welcome/Box.svg") 0 3px no-repeat;
+   padding-left: 17px;
+}
+
+/*
+.welcome__sub__title::before {
+   content: "";
+   width: 12px;
+   height: 12px;
+   background-color: #40DDB6;
+   margin-right: 5px;
+}
+*/
+
+.welcome__title {
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.21;
+   max-width: 414px;
+   margin-bottom: 20px;
+}
+
+.welcome__text {
+   color: #7D7D7D;
+   font-family: "Inter";
+   font-size: 18px;
+   line-height: 1.46;
+   margin-bottom: 20px;
+}
+
+.welcome__text p:not(:last-child) {
+   margin-bottom: 15px;
+}
+
+.welcome__list {
+   font-size: 20px;
+   margin-bottom: 43px;
+   line-height: 1.2;
+}
+
+.welcome__list li {
+   background: url("../img/welcome/gall2.svg") 0 0 no-repeat;
+   padding-left: 35px;
+   min-height: 30px;
+}
+
+.welcome__list li:not(:last-child) {
+   margin-bottom: 23px;
+}
+
+.welcome__items {
+   max-width: 615px;
+   margin-bottom: 37px;
+   font-size: 0;
+}
+
+.items-welcome {}
+
+.items-welcome__item {
+   max-width: 295px;
+   display: inline-block;
+   padding: 27px;
+   border: 1px solid #E3E3E3;
+}
+
+.items-welcome__item:not(:last-child) {
+   margin-right: 21px;
+}
+
+.item__icon {
+   display: inline-block;
+   margin-right: 19px;
+}
+
+.item__body {
+   display: inline-block;
+   max-width: 173px;
+   vertical-align: top;
+}
+
+.item__title {
+   font-size: 20px;
+   font-weight: 600;
+   margin-bottom: 3px;
+}
+
+.item__text {
+   color: #7D7D7D;
+   font-family: "Inter";
+   font-size: 16px;
+   line-height: 1.35;
+}
+
+.item__text p:not(:last-child) {
+   margin-bottom: 3px;
+}
+
+.welcome__link {
+   color: #FFF;
+   text-align: center;
+   font-family: "Inter";
+   font-size: 18px;
+   font-weight: 600;
+   text-transform: capitalize;
+   background: #6B77E5;
+   padding: 22px 27px;
+}
+
+.welcome__link:hover {
+   background: #3b48bc;
+}
+
+/*---------------------------discover--------------------------------------------*/
+.page__discover {}
+
+.discover__container {
+   max-width: 1250px;
+   margin: 0 auto;
+   padding: 0px 15px;
+   overflow: clip;
+   color: #37393F;
+   font-family: "Inter";
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.discover__block {
+   max-width: 852px;
+   margin: 0 auto;
+   text-align: center;
+   margin-bottom: 47px;
+}
+
+.discover__sub-title {
+   font-size: 18px;
+   font-weight: 500;
+   background: url("../img/discover/box.svg") 0 3px no-repeat;
+   padding-left: 18px;
+   display: inline-block;
+}
+
+.discover__sub-title:not(:last-child) {
+   margin-bottom: 14px;
+}
+
+.discover__title {
+   font-family: "Poppins";
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.21;
+}
+
+.discover__title:not(:last-child) {
+   margin-bottom: 14px;
+}
+
+.discover__text {
+   color: #7D7D7D;
+   font-family: Inter;
+   font-size: 18px;
+   line-height: 1.46;
+}
+
+.discover__text p:not(:last-child) {
+   margin-bottom: 5px;
+}
+
+/*---------------------------------------items----------------------*/
+.discover__items {}
+
+.items__top {
+   margin-bottom: 58px;
+   font-size: 0;
+}
+
+.discover__item {}
+
+.discover__item:not(:last-child) {
+   margin-right: 34px;
+}
+
+.item-discaver {
+   display: inline-block;
+}
+
+.item-discaver__image-one {
+   width: 384px;
+   height: 501px;
+   background: url("../img/discover/Photo_1.png") center / cover no-repeat;
+   margin-bottom: 24px;
+}
+
+.item-discaver__image-two {
+   width: 384px;
+   height: 501px;
+   background: url("../img/discover/Photo_2.png") center / cover no-repeat;
+   margin-bottom: 24px;
+}
+
+.item-discaver__image-three {
+   width: 384px;
+   height: 501px;
+   background: url("../img/discover/Photo_3.png") center / cover no-repeat;
+   margin-bottom: 24px;
+}
+
+.items__bottom {
+   font-size: 0;
+}
+
+.item-discaver__image-four {
+   width: 384px;
+   height: 501px;
+   background: url("../img/discover/Photo_4.png") center / cover no-repeat;
+   margin-bottom: 24px;
+}
+
+.item-discaver__image-five {
+   width: 384px;
+   height: 501px;
+   background: url("../img/discover/Photo_5.png") center / cover no-repeat;
+   margin-bottom: 24px;
+}
+
+.item-discaver__image-six {
+   width: 384px;
+   height: 501px;
+   background: url("../img/discover/Photo_6.png") center / cover no-repeat;
+   margin-bottom: 24px;
+}
+
+.item-discaver__title {
+   font-family: "Poppins";
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.27;
+}
+
+.item-discaver__title:not(:last-child) {
+   margin-bottom: 15px;
+}
+
+.item-discaver__date {
+   color: #7D7D7D;
+   font-size: 14px;
+   line-height: 1.46;
+   background: url("../img/discover/icons/date.svg") 0 0 no-repeat;
+   padding-left: 26px;
+}
+
+/*--------------------------euphoria------------------------------------*/
+
+.page__euphoria {}
+
+.euphoria__container {
+   max-width: 1275px;
+   margin: 0 auto;
+   padding: 50px 15px;
+   overflow: clip;
+   font-size: 0;
+}
+
+.euphoria__content {
+   padding: 183px 74px 174px 74px;
+   display: inline-block;
+   background: url("../img/euphoria/fon.png")center / cover no-repeat;
+   width: 613px;
+   border-radius: 10px 0 0 10px;
+   height: 639px;
+}
+
+.euphoria__title {
+   color: #FFF;
+   font-family: "Core Sans C";
+   font-size: 34px;
+   font-weight: 800;
+   line-height: 1.47;
+   letter-spacing: 0.208px;
+}
+
+.euphoria__title:not(:last-child) {
+   margin-bottom: 30px;
+}
+
+.euphoria__text {
+   color: #FFF;
+   font-family: "Causten";
+   font-size: 20px;
+   font-weight: 300;
+   letter-spacing: 1px;
+   max-width: 451px;
+}
+
+.euphoria__text:not(:last-child) {
+   margin-bottom: 50px;
+}
+
+.euphoria__link {
+   color: #3C4242;
+   text-align: center;
+   font-family: "Causten";
+   font-size: 18px;
+   font-weight: 600;
+   border-radius: 8px;
+   background: #FFF;
+   padding: 12px 44px;
+}
+
+.euphoria__link:hover {
+   background: #fac3c3;
+}
+
+.euphoria__image {
+   display: inline-block;
+   max-width: 626px;
+   width: 100%;
+   height: 639px;
+   background: url("../img/euphoria/image_right.png") top / cover no-repeat;
+   vertical-align: top;
+}
+
+/*----------------------------------clothing--------------------------------------------*/
+.clothing {}
+
+.clothing__container {
+   max-width: 1270px;
+   margin: 0 auto;
+   padding: 50px 15px;
+   overflow: clip;
+}
+
+.clothing__title {
+   color: #3C4242;
+   font-family: "Core Sans C";
+   font-size: 28px;
+   font-weight: 600;
+   line-height: 1.19;
+   letter-spacing: 0.56px;
+   background: url("../img/clothing/icon.svg") 0 2px no-repeat;
+   padding-left: 21px;
+}
+
+.clothing__title:not(:last-child) {
+   margin-bottom: 30px;
+}
+
+.clothing__top {
+   margin-bottom: 25px;
+}
+
+.top__sub-title {
+   color: #807D7E;
+   font-family: "Core Sans C";
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.67;
+   letter-spacing: 0.4px;
+}
+
+.top__sub-title:not(:last-child) {
+   margin-bottom: 25px;
+}
+
+.top__text {
+   color: #807D7E;
+   font-family: "Causten";
+   font-size: 20px;
+   line-height: 1.67;
+   letter-spacing: 0.4px;
+
+}
+
+.top__text p:not(:last-child) {
+   margin-bottom: 20px;
+}
+
+.clothing__bottom {
+   margin-bottom: 20px;
+}
+
+.bottom__sub-title {
+   color: #807D7E;
+   font-family: "Core Sans C";
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.67;
+   letter-spacing: 0.4px;
+}
+
+.bottom__sub-title:not(:last-child) {
+   margin-bottom: 25px;
+}
+
+.bottom__text {
+   color: #807D7E;
+   font-family: "Causten";
+   font-size: 20px;
+   line-height: 1.67;
+   letter-spacing: 0.4px;
+}
+
+.bottom__text p:not(:last-child) {
+   margin-bottom: 20px;
+}
+
+.clothing__link {
+   color: #807D7E;
+   font-family: "Core Sans C";
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.67;
+   letter-spacing: 0.4px;
+}
+
+/*---------------------------footer----------------------------*/
+.footer {
+   background: url("../img/praktik/fon_3.jpg") center / cover no-repeat;
+   background-attachment: fixed;
+}
+
+.footer__container {
+   max-width: 1250px;
+   margin: 0 auto;
+   padding: 75px 15px;
+   overflow: clip;
+   text-align: center;
+}
+
+.footer__bottom {
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+.footer__link {
+   color: #fff;
+   font-size: 30px;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   line-height: 1.8;
+   display: block;
+}
+
+.footer__link::before {
+   content: "";
+   width: 10px;
+   height: 10px;
+   display: inline-block;
+   background-color: #FFF;
+   border-radius: 50%;
+   vertical-align: middle;
+   margin-right: 15px;
+
+}
+
+.footer__link::after {
+   content: "";
+   width: 10px;
+   height: 10px;
+   display: inline-block;
+   background-color: #FFF;
+   border-radius: 50%;
+   vertical-align: middle;
+   margin-left: 15px;
+}
+
+.footer__link:hover {
+   transform: scale(1.05);
+   opacity: 0.85;
+   transition: all 0.3s ease 0s;
+   border-radius: 10px;
+   box-shadow: inset 3px 3px 3px 1px, 3px 3px 3px 1px;
+   background: rgb(255, 255, 255);
+   background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(255, 255, 255, 1) 100%);
+}
+
+.footer__link:active {
+   box-shadow: inset 0px 0px 0px 0px, 0px 0px 0px 0px;
+}
