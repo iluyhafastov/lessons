@@ -42,17 +42,17 @@
 
 
 @font-face {
-   font-family: 'Core Sans C';
+   font-family: 'CoreSansC';
    src:
-      url("../fonts/Core Sans C-65BoldIt.woff2") format(woff2),
-      url("../fonts/Core Sans C-65BoldIt.woff") format(woff);
+      url("../fonts/CoreSansC-65BoldIt.woff2") format(woff2),
+      url("../fonts/CoreSansC-65BoldIt.woff") format(woff);
    font-weight: 600;
    font-style: normal;
    font-display: swap;
 }
 
 @font-face {
-   font-family: 'Core Sans C';
+   font-family: 'CoreSansC';
    src:
       url("../fonts/CoreSansC-85Heavy.woff2") format(woff2),
       url("../fonts/CoreSansC-85Heavy.woff") format(woff);
